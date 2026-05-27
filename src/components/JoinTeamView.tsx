@@ -181,7 +181,7 @@ export default function JoinTeamView() {
                   initial={{ opacity: 0 }}
                   animate={{ opacity: 1 }}
                   exit={{ opacity: 0 }}
-                  className="p-6 bg-emerald-50 border border-emerald-200 text-emerald-800 rounded-2xl text-center space-y-2 font-sans"
+                  className="p-6 bg-primary-gold-light border border-primary-gold/30 text-neutral-dark rounded-2xl text-center space-y-2 font-sans"
                 >
                   <p className="text-sm font-bold">Application Received Successfully!</p>
                   <p className="text-xs">

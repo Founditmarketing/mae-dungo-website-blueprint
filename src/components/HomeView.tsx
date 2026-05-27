@@ -416,7 +416,7 @@ export default function HomeView({ onNavigate }: HomeViewProps) {
               rel="noreferrer"
               className="group bg-neutral-light p-8 rounded-2xl border border-gray-100 hover:border-primary-gold/40 shadow-xs hover:shadow-lg transition-all duration-300 flex flex-col items-center text-center space-y-5 cursor-pointer"
             >
-              <div className="w-16 h-16 rounded-2xl bg-[#1877F2]/10 text-[#1877F2] group-hover:bg-[#1877F2] group-hover:text-white flex items-center justify-center transition-all duration-300">
+              <div className="w-16 h-16 rounded-2xl bg-primary-gold-light text-primary-gold group-hover:bg-neutral-dark group-hover:text-white flex items-center justify-center transition-all duration-300">
                 <Facebook className="w-7 h-7" />
               </div>
               <div className="space-y-2">
@@ -439,7 +439,7 @@ export default function HomeView({ onNavigate }: HomeViewProps) {
               rel="noreferrer"
               className="group bg-neutral-light p-8 rounded-2xl border border-gray-100 hover:border-primary-gold/40 shadow-xs hover:shadow-lg transition-all duration-300 flex flex-col items-center text-center space-y-5 cursor-pointer"
             >
-              <div className="w-16 h-16 rounded-2xl bg-gradient-to-br from-[#F58529]/10 via-[#DD2A7B]/10 to-[#8134AF]/10 text-[#DD2A7B] group-hover:bg-gradient-to-br group-hover:from-[#F58529] group-hover:via-[#DD2A7B] group-hover:to-[#8134AF] group-hover:text-white flex items-center justify-center transition-all duration-300">
+              <div className="w-16 h-16 rounded-2xl bg-primary-gold-light text-primary-gold group-hover:bg-neutral-dark group-hover:text-white flex items-center justify-center transition-all duration-300">
                 <Instagram className="w-7 h-7" />
               </div>
               <div className="space-y-2">
@@ -462,7 +462,7 @@ export default function HomeView({ onNavigate }: HomeViewProps) {
               rel="noreferrer"
               className="group bg-neutral-light p-8 rounded-2xl border border-gray-100 hover:border-primary-gold/40 shadow-xs hover:shadow-lg transition-all duration-300 flex flex-col items-center text-center space-y-5 cursor-pointer"
             >
-              <div className="w-16 h-16 rounded-2xl bg-[#0A66C2]/10 text-[#0A66C2] group-hover:bg-[#0A66C2] group-hover:text-white flex items-center justify-center transition-all duration-300">
+              <div className="w-16 h-16 rounded-2xl bg-primary-gold-light text-primary-gold group-hover:bg-neutral-dark group-hover:text-white flex items-center justify-center transition-all duration-300">
                 <Linkedin className="w-7 h-7" />
               </div>
               <div className="space-y-2">

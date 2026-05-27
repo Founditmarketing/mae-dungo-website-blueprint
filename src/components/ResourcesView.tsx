@@ -7,7 +7,6 @@ import React, { useState } from 'react';
 import { AppRoute } from '../types';
 import { 
   Instagram, 
-  Youtube, 
   Facebook, 
   Linkedin, 
   ArrowUpRight, 
@@ -30,36 +29,28 @@ export default function ResourcesView({ onNavigate }: ResourcesViewProps) {
 
   const socialLinks = [
     {
-      name: "Instagram",
-      desc: "@maedungofinancial",
-      details: "Educational reels & short diagrams breaking down compound growth & Texas protective policies daily.",
-      url: "https://www.instagram.com/",
-      icon: Instagram,
-      color: "hover:text-[#E1306C] hover:border-[#E1306C]/30"
-    },
-    {
-      name: "YouTube",
-      desc: "Mae Dungo Financial",
-      details: "In-depth tutorials explaining tax buckets, index compounding floors, and Medicare/term insurance comparisons.",
-      url: "https://www.youtube.com/",
-      icon: Youtube,
-      color: "hover:text-[#FF0000] hover:border-[#FF0000]/30"
-    },
-    {
       name: "Facebook",
-      desc: "Mae Dungo Licensed Professional",
-      details: "Local Houston community seminars schedules, event photos, live Q&A, and client success milestones page.",
-      url: "https://www.facebook.com/",
+      desc: "@MEVDlovesU",
+      details: "Community updates, live educational sessions, event photos, live Q&A, and client success milestones.",
+      url: "https://www.facebook.com/MEVDlovesU/",
       icon: Facebook,
-      color: "hover:text-[#1877F2] hover:border-[#1877F2]/30"
+      color: "hover:text-primary-gold hover:border-primary-gold/30"
+    },
+    {
+      name: "Instagram",
+      desc: "@iammaedungo",
+      details: "Educational reels & short diagrams breaking down compound growth & Texas protective policies daily.",
+      url: "https://www.instagram.com/iammaedungo/",
+      icon: Instagram,
+      color: "hover:text-primary-gold hover:border-primary-gold/30"
     },
     {
       name: "LinkedIn",
       desc: "Mae Dungo, NP",
       details: "Professional medical-financial corporate networking, business succession models, and executive planning advice.",
-      url: "https://www.linkedin.com/",
+      url: "https://www.linkedin.com/in/maedungo/",
       icon: Linkedin,
-      color: "hover:text-[#0077B5] hover:border-[#0077B5]/30"
+      color: "hover:text-primary-gold hover:border-primary-gold/30"
     }
   ];
 
@@ -134,7 +125,7 @@ export default function ResourcesView({ onNavigate }: ResourcesViewProps) {
             </p>
           </div>
 
-          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6" id="social-links-grid">
+          <div className="grid grid-cols-1 md:grid-cols-3 gap-6" id="social-links-grid">
             {socialLinks.map((social) => {
               const SocialIcon = social.icon;
               return (
@@ -195,7 +186,7 @@ export default function ResourcesView({ onNavigate }: ResourcesViewProps) {
 
           {/* Feedback download simulation card */}
           {downloadSuccess && (
-            <div className="mb-8 p-4 bg-emerald-50 border border-emerald-200 text-emerald-800 rounded-xl text-center text-xs font-medium font-sans">
+            <div className="mb-8 p-4 bg-primary-gold-light border border-primary-gold/30 text-neutral-dark rounded-xl text-center text-xs font-medium font-sans">
               ✓ "<strong>{downloadSuccess}</strong>" packet initialized. To customize these structures for your Houston household budget, we recommend booking a short 15-minute verification call.
             </div>
           )}

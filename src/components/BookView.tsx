@@ -145,7 +145,7 @@ export default function BookView() {
                     className="py-12 px-6 text-center space-y-6"
                     id="success-booking-card"
                   >
-                    <div className="w-16 h-16 rounded-full bg-emerald-50 text-emerald-600 flex items-center justify-center mx-auto shadow-sm">
+                    <div className="w-16 h-16 rounded-full bg-primary-gold-light text-primary-gold flex items-center justify-center mx-auto shadow-sm">
                       <Check className="w-8 h-8" />
                     </div>
                     

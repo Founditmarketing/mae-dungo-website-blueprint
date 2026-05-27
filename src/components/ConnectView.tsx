@@ -202,12 +202,12 @@ export default function ConnectView({ onNavigate }: ConnectViewProps) {
 
               {/* Feedback Alert Row */}
               {isSent && (
-                <div className="mb-6 p-4 bg-emerald-50 border border-emerald-200 text-emerald-800 rounded-xl space-y-1">
+                <div className="mb-6 p-4 bg-primary-gold-light border border-primary-gold/30 text-neutral-dark rounded-xl space-y-1">
                   <div className="flex items-center space-x-2 text-xs font-bold font-sans">
-                    <CheckCircle className="w-4 h-4 text-emerald-600" />
+                    <CheckCircle className="w-4 h-4 text-primary-gold" />
                     <span>Inquiry Registered Successfully!</span>
                   </div>
-                  <p className="text-[11px] font-sans text-emerald-700">
+                  <p className="text-[11px] font-sans text-neutral-dark/70">
                     Thank you, <strong>{formData.name}</strong>. Mae Dungo's workspace has been dispatched with your inquiry details. An automated validation email has been sent to <strong>{formData.email}</strong>.
                   </p>
                 </div>

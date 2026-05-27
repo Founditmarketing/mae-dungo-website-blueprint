@@ -7,6 +7,12 @@
   --color-primary-gold: #c5a880;
   --color-primary-gold-hover: #b39770;
   --color-primary-gold-light: #f8f6f2;
+  --color-neutral-dark: #121212;
+  --color-neutral-light: #faf9f7;
+  --color-success: #c5a880;
+  --color-success-light: #f8f6f2;
+  --color-success-border: #d4c4a8;
+  --color-success-text: #6b5b3e;
 }
 
 body {

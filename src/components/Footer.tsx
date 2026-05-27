@@ -64,23 +64,23 @@ export default function Footer({ onChangeRoute }: FooterProps) {
 
           {/* Column 2: Elegant Navigation Links */}
           <div className="flex flex-col space-y-4">
-            <h4 className="font-serif text-xs md:text-sm font-semibold uppercase tracking-widest text-[#d8caaa]">
+            <h4 className="font-serif text-xs md:text-sm font-semibold uppercase tracking-widest text-primary-gold">
               Quick Navigation
             </h4>
             <div className="grid grid-cols-1 gap-2.5 text-sm font-sans">
-              <button onClick={() => handleNavClick(AppRoute.Home)} className="text-gray-400 hover:text-[#d8caaa] text-left transition-colors cursor-pointer text-xs uppercase tracking-widest">
+              <button onClick={() => handleNavClick(AppRoute.Home)} className="text-gray-400 hover:text-primary-gold text-left transition-colors cursor-pointer text-xs uppercase tracking-widest">
                 Home
               </button>
-              <button onClick={() => handleNavClick(AppRoute.Services)} className="text-gray-400 hover:text-[#d8caaa] text-left transition-colors cursor-pointer text-xs uppercase tracking-widest">
+              <button onClick={() => handleNavClick(AppRoute.Services)} className="text-gray-400 hover:text-primary-gold text-left transition-colors cursor-pointer text-xs uppercase tracking-widest">
                 Services
               </button>
-              <button onClick={() => handleNavClick(AppRoute.About)} className="text-gray-400 hover:text-[#d8caaa] text-left transition-colors cursor-pointer text-xs uppercase tracking-widest">
+              <button onClick={() => handleNavClick(AppRoute.About)} className="text-gray-400 hover:text-primary-gold text-left transition-colors cursor-pointer text-xs uppercase tracking-widest">
                 About Mae
               </button>
-              <button onClick={() => handleNavClick(AppRoute.Resources)} className="text-gray-400 hover:text-[#d8caaa] text-left transition-colors cursor-pointer text-xs uppercase tracking-widest">
+              <button onClick={() => handleNavClick(AppRoute.Resources)} className="text-gray-400 hover:text-primary-gold text-left transition-colors cursor-pointer text-xs uppercase tracking-widest">
                 Resources
               </button>
-              <button onClick={() => handleNavClick(AppRoute.Connect)} className="text-gray-400 hover:text-[#d8caaa] text-left transition-colors cursor-pointer text-xs uppercase tracking-widest">
+              <button onClick={() => handleNavClick(AppRoute.Connect)} className="text-gray-400 hover:text-primary-gold text-left transition-colors cursor-pointer text-xs uppercase tracking-widest">
                 Connect
               </button>
               <button onClick={() => handleNavClick(AppRoute.JoinTeam)} className="text-gray-400 hover:text-primary-gold text-left transition-colors cursor-pointer text-xs uppercase tracking-widest font-medium">
@@ -91,22 +91,22 @@ export default function Footer({ onChangeRoute }: FooterProps) {
 
           {/* Column 3: Services Summary Checklist */}
           <div className="flex flex-col space-y-4">
-            <h4 className="font-serif text-xs md:text-sm font-semibold uppercase tracking-widest text-[#d8caaa]">
+            <h4 className="font-serif text-xs md:text-sm font-semibold uppercase tracking-widest text-primary-gold">
               Core Offerings
             </h4>
             <ul className="space-y-2 text-xs sm:text-sm text-gray-400 font-sans leading-relaxed">
-              <li className="hover:text-[#d1b994] transition-colors cursor-pointer" onClick={() => handleNavClick(AppRoute.Services)}>• Retirement Planning & Growth</li>
-              <li className="hover:text-[#d1b994] transition-colors cursor-pointer" onClick={() => handleNavClick(AppRoute.Services)}>• Wealth Protection Strategies</li>
-              <li className="hover:text-[#d1b994] transition-colors cursor-pointer" onClick={() => handleNavClick(AppRoute.Services)}>• Indexed Life Insurance Plans</li>
-              <li className="hover:text-[#d1b994] transition-colors cursor-pointer" onClick={() => handleNavClick(AppRoute.Services)}>• Final Expense & Family Trust</li>
-              <li className="hover:text-[#d1b994] transition-colors cursor-pointer" onClick={() => handleNavClick(AppRoute.Services)}>• College Funding & Wealth Growth</li>
-              <li className="hover:text-[#d1b994] transition-colors cursor-pointer" onClick={() => handleNavClick(AppRoute.Services)}>• Small Business Financial Succession</li>
+              <li className="hover:text-primary-gold transition-colors cursor-pointer" onClick={() => handleNavClick(AppRoute.Services)}>• Retirement Planning & Growth</li>
+              <li className="hover:text-primary-gold transition-colors cursor-pointer" onClick={() => handleNavClick(AppRoute.Services)}>• Wealth Protection Strategies</li>
+              <li className="hover:text-primary-gold transition-colors cursor-pointer" onClick={() => handleNavClick(AppRoute.Services)}>• Indexed Life Insurance Plans</li>
+              <li className="hover:text-primary-gold transition-colors cursor-pointer" onClick={() => handleNavClick(AppRoute.Services)}>• Final Expense & Family Trust</li>
+              <li className="hover:text-primary-gold transition-colors cursor-pointer" onClick={() => handleNavClick(AppRoute.Services)}>• College Funding & Wealth Growth</li>
+              <li className="hover:text-primary-gold transition-colors cursor-pointer" onClick={() => handleNavClick(AppRoute.Services)}>• Small Business Financial Succession</li>
             </ul>
           </div>
 
           {/* Column 4: CRM Integration & High Value Consultation Callout */}
           <div className="flex flex-col space-y-4">
-            <h4 className="font-serif text-xs md:text-sm font-semibold uppercase tracking-widest text-[#d8caaa]">
+            <h4 className="font-serif text-xs md:text-sm font-semibold uppercase tracking-widest text-primary-gold">
               Join the Blueprint
             </h4>
             <p className="text-gray-400 text-xs font-sans leading-relaxed">
