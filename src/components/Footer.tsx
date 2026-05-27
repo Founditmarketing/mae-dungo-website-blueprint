@@ -5,7 +5,7 @@
 
 import React from 'react';
 import { AppRoute } from '../types';
-import { Mail, Phone, MapPin, Shield, HelpCircle, ArrowRight } from 'lucide-react';
+import { Mail, Phone, MapPin, Shield, HelpCircle, ArrowRight, Facebook, Instagram, Linkedin } from 'lucide-react';
 
 interface FooterProps {
   onChangeRoute: (route: AppRoute) => void;
@@ -48,6 +48,17 @@ export default function Footer({ onChangeRoute }: FooterProps) {
                 <Phone className="w-3.5 h-3.5 text-primary-gold" />
                 <a href="tel:+18325550190" className="hover:text-primary-gold transition-colors">(832) 555-0190</a>
               </div>
+            </div>
+            <div className="flex items-center space-x-3 pt-4">
+              <a href="https://www.facebook.com/MEVDlovesU/" target="_blank" rel="noreferrer" className="w-8 h-8 rounded-full bg-white/10 hover:bg-primary-gold/20 text-gray-400 hover:text-primary-gold transition-all flex items-center justify-center border border-gray-700 hover:border-primary-gold/40" aria-label="Facebook">
+                <Facebook className="w-3.5 h-3.5" />
+              </a>
+              <a href="https://www.instagram.com/iammaedungo/" target="_blank" rel="noreferrer" className="w-8 h-8 rounded-full bg-white/10 hover:bg-primary-gold/20 text-gray-400 hover:text-primary-gold transition-all flex items-center justify-center border border-gray-700 hover:border-primary-gold/40" aria-label="Instagram">
+                <Instagram className="w-3.5 h-3.5" />
+              </a>
+              <a href="https://www.linkedin.com/in/maedungo/" target="_blank" rel="noreferrer" className="w-8 h-8 rounded-full bg-white/10 hover:bg-primary-gold/20 text-gray-400 hover:text-primary-gold transition-all flex items-center justify-center border border-gray-700 hover:border-primary-gold/40" aria-label="LinkedIn">
+                <Linkedin className="w-3.5 h-3.5" />
+              </a>
             </div>
           </div>
 

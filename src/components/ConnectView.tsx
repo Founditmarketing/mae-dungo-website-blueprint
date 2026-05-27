@@ -13,7 +13,7 @@ import {
   Clock, 
   CheckCircle, 
   Instagram, 
-  Youtube, 
+
   Facebook, 
   Linkedin,
   Calendar
@@ -158,18 +158,15 @@ export default function ConnectView({ onNavigate }: ConnectViewProps) {
 
               {/* Social Channels Mini-Tray */}
               <div className="pt-4 border-t border-gray-100 flex flex-col space-y-4">
-                <span className="text-[10px] uppercase font-sans tracking-widest font-semibold text-gray-400">Underwrite Social Follows</span>
+                <span className="text-[10px] uppercase font-sans tracking-widest font-semibold text-gray-400">Follow Mae on Social Media</span>
                 <div className="flex items-center space-x-3">
-                  <a href="https://www.instagram.com" target="_blank" rel="noreferrer" className="w-9 h-9 rounded-full bg-neutral-light hover:bg-primary-gold/15 text-neutral-dark hover:text-primary-gold transition-colors flex items-center justify-center border border-gray-100">
-                    <Instagram className="w-4 h-4" />
-                  </a>
-                  <a href="https://www.youtube.com" target="_blank" rel="noreferrer" className="w-9 h-9 rounded-full bg-neutral-light hover:bg-primary-gold/15 text-neutral-dark hover:text-primary-gold transition-colors flex items-center justify-center border border-gray-100">
-                    <Youtube className="w-4 h-4" />
-                  </a>
-                  <a href="https://www.facebook.com" target="_blank" rel="noreferrer" className="w-9 h-9 rounded-full bg-neutral-light hover:bg-primary-gold/15 text-neutral-dark hover:text-primary-gold transition-colors flex items-center justify-center border border-gray-100">
+                  <a href="https://www.facebook.com/MEVDlovesU/" target="_blank" rel="noreferrer" className="w-9 h-9 rounded-full bg-neutral-light hover:bg-primary-gold/15 text-neutral-dark hover:text-primary-gold transition-colors flex items-center justify-center border border-gray-100" aria-label="Facebook">
                     <Facebook className="w-4 h-4" />
                   </a>
-                  <a href="https://www.linkedin.com" target="_blank" rel="noreferrer" className="w-9 h-9 rounded-full bg-neutral-light hover:bg-primary-gold/15 text-neutral-dark hover:text-primary-gold transition-colors flex items-center justify-center border border-gray-100">
+                  <a href="https://www.instagram.com/iammaedungo/" target="_blank" rel="noreferrer" className="w-9 h-9 rounded-full bg-neutral-light hover:bg-primary-gold/15 text-neutral-dark hover:text-primary-gold transition-colors flex items-center justify-center border border-gray-100" aria-label="Instagram">
+                    <Instagram className="w-4 h-4" />
+                  </a>
+                  <a href="https://www.linkedin.com/in/maedungo/" target="_blank" rel="noreferrer" className="w-9 h-9 rounded-full bg-neutral-light hover:bg-primary-gold/15 text-neutral-dark hover:text-primary-gold transition-colors flex items-center justify-center border border-gray-100" aria-label="LinkedIn">
                     <Linkedin className="w-4 h-4" />
                   </a>
                 </div>

@@ -17,7 +17,11 @@ import {
   CheckCircle2,
   Calendar,
   Compass,
-  FileCheck
+  FileCheck,
+  Facebook,
+  Instagram,
+  Linkedin,
+  ExternalLink
 } from 'lucide-react';
 import { motion } from 'motion/react';
 
@@ -382,6 +386,98 @@ export default function HomeView({ onNavigate }: HomeViewProps) {
               <span>Build My Financial Blueprint Today</span>
               <ArrowRight className="w-4 h-4" />
             </button>
+          </div>
+
+        </div>
+      </section>
+
+
+      {/* 5.5 SOCIAL MEDIA CONNECT SECTION */}
+      <section className="py-24 bg-white border-t border-gray-100" id="social-connect">
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+          
+          <div className="text-center max-w-3xl mx-auto mb-16 space-y-4">
+            <span className="text-xs font-sans tracking-widest uppercase text-primary-gold font-bold">Stay Connected</span>
+            <h2 className="text-3xl sm:text-4xl font-serif text-neutral-dark font-bold tracking-tight">
+              Follow Mae's Journey
+            </h2>
+            <div className="w-16 h-0.5 bg-primary-gold mx-auto"></div>
+            <p className="text-gray-600 font-sans text-sm sm:text-base leading-relaxed">
+              Join Mae's growing community for financial tips, educational content, behind-the-scenes insights, and inspiration for building long-term financial confidence.
+            </p>
+          </div>
+
+          <div className="grid grid-cols-1 md:grid-cols-3 gap-8" id="social-cards">
+            
+            {/* Facebook Card */}
+            <a 
+              href="https://www.facebook.com/MEVDlovesU/" 
+              target="_blank" 
+              rel="noreferrer"
+              className="group bg-neutral-light p-8 rounded-2xl border border-gray-100 hover:border-primary-gold/40 shadow-xs hover:shadow-lg transition-all duration-300 flex flex-col items-center text-center space-y-5 cursor-pointer"
+            >
+              <div className="w-16 h-16 rounded-2xl bg-[#1877F2]/10 text-[#1877F2] group-hover:bg-[#1877F2] group-hover:text-white flex items-center justify-center transition-all duration-300">
+                <Facebook className="w-7 h-7" />
+              </div>
+              <div className="space-y-2">
+                <h3 className="font-serif text-lg font-bold text-neutral-dark group-hover:text-primary-gold transition-colors">Facebook</h3>
+                <p className="text-xs text-gray-500 font-sans">@MEVDlovesU</p>
+                <p className="text-xs text-gray-500 font-sans leading-relaxed">
+                  Community updates, live educational sessions, and client success stories from Mae's financial education practice.
+                </p>
+              </div>
+              <div className="flex items-center space-x-1.5 text-xs font-sans font-semibold tracking-widest uppercase text-neutral-dark/70 group-hover:text-primary-gold transition-colors">
+                <span>Follow on Facebook</span>
+                <ExternalLink className="w-3.5 h-3.5" />
+              </div>
+            </a>
+
+            {/* Instagram Card */}
+            <a 
+              href="https://www.instagram.com/iammaedungo/" 
+              target="_blank" 
+              rel="noreferrer"
+              className="group bg-neutral-light p-8 rounded-2xl border border-gray-100 hover:border-primary-gold/40 shadow-xs hover:shadow-lg transition-all duration-300 flex flex-col items-center text-center space-y-5 cursor-pointer"
+            >
+              <div className="w-16 h-16 rounded-2xl bg-gradient-to-br from-[#F58529]/10 via-[#DD2A7B]/10 to-[#8134AF]/10 text-[#DD2A7B] group-hover:bg-gradient-to-br group-hover:from-[#F58529] group-hover:via-[#DD2A7B] group-hover:to-[#8134AF] group-hover:text-white flex items-center justify-center transition-all duration-300">
+                <Instagram className="w-7 h-7" />
+              </div>
+              <div className="space-y-2">
+                <h3 className="font-serif text-lg font-bold text-neutral-dark group-hover:text-primary-gold transition-colors">Instagram</h3>
+                <p className="text-xs text-gray-500 font-sans">@iammaedungo</p>
+                <p className="text-xs text-gray-500 font-sans leading-relaxed">
+                  Daily financial education tips, behind-the-scenes content, and inspiring stories about wealth protection and planning.
+                </p>
+              </div>
+              <div className="flex items-center space-x-1.5 text-xs font-sans font-semibold tracking-widest uppercase text-neutral-dark/70 group-hover:text-primary-gold transition-colors">
+                <span>Follow on Instagram</span>
+                <ExternalLink className="w-3.5 h-3.5" />
+              </div>
+            </a>
+
+            {/* LinkedIn Card */}
+            <a 
+              href="https://www.linkedin.com/in/maedungo/" 
+              target="_blank" 
+              rel="noreferrer"
+              className="group bg-neutral-light p-8 rounded-2xl border border-gray-100 hover:border-primary-gold/40 shadow-xs hover:shadow-lg transition-all duration-300 flex flex-col items-center text-center space-y-5 cursor-pointer"
+            >
+              <div className="w-16 h-16 rounded-2xl bg-[#0A66C2]/10 text-[#0A66C2] group-hover:bg-[#0A66C2] group-hover:text-white flex items-center justify-center transition-all duration-300">
+                <Linkedin className="w-7 h-7" />
+              </div>
+              <div className="space-y-2">
+                <h3 className="font-serif text-lg font-bold text-neutral-dark group-hover:text-primary-gold transition-colors">LinkedIn</h3>
+                <p className="text-xs text-gray-500 font-sans">Mae Dungo</p>
+                <p className="text-xs text-gray-500 font-sans leading-relaxed">
+                  Professional insights, career opportunities, industry articles, and team recruitment updates from Mae's practice.
+                </p>
+              </div>
+              <div className="flex items-center space-x-1.5 text-xs font-sans font-semibold tracking-widest uppercase text-neutral-dark/70 group-hover:text-primary-gold transition-colors">
+                <span>Connect on LinkedIn</span>
+                <ExternalLink className="w-3.5 h-3.5" />
+              </div>
+            </a>
+
           </div>
 
         </div>
