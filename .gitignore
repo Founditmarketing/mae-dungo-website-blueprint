@@ -6,3 +6,5 @@ coverage/
 *.log
 .env*
 !.env.example
+public/images/IMG_4096.mp4
+*.mp4
