@@ -21,8 +21,8 @@ import {
 } from 'lucide-react';
 import { motion, AnimatePresence } from 'motion/react';
 
-// Use the generated Team/Leadership image
-import teamMentorship from '../assets/images/team_mentorship_training_1779916074337.png';
+// Real photo from public/images
+const teamMentorship = '/images/671558585_10233517281537125_4459711296456051773_n.jpg';
 
 export default function JoinTeamView() {
   const [appForm, setAppForm] = useState<TeamApplication>({

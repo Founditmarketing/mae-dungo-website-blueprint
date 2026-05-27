@@ -25,9 +25,9 @@ import {
 } from 'lucide-react';
 import { motion } from 'motion/react';
 
-// Use the generated image paths
-import maePortrait from '../assets/images/mae_dungo_portrait_1779916039660.png';
-import clientDiscussion from '../assets/images/houston_client_discussion_1779916056723.png';
+// Real photos from public/images
+const maePortrait = '/images/Aragon-Headshot-Mae-Dungo-2025-10-07-4.jpeg';
+const clientDiscussion = '/images/1000051446.jpg';
 
 interface HomeViewProps {
   onNavigate: (route: AppRoute) => void;

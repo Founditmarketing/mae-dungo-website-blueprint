@@ -21,7 +21,7 @@ import {
 import { motion } from 'motion/react';
 
 // Use the generated client discussion / office image
-import clientDiscussion from '../assets/images/houston_client_discussion_1779916056723.png';
+const clientDiscussion = '/images/1000051446.jpg';
 
 interface ConnectViewProps {
   onNavigate: (route: AppRoute) => void;

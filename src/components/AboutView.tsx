@@ -8,9 +8,12 @@ import { AppRoute } from '../types';
 import { Play, Sparkles, Award,HeartHandshake, ChevronRight, Check, Heart, Shield, Stethoscope } from 'lucide-react';
 import { motion } from 'motion/react';
 
-// Use the generated image paths
-import maePortrait from '../assets/images/mae_dungo_portrait_1779916039660.png';
-import clientDiscussion from '../assets/images/houston_client_discussion_1779916056723.png';
+// Real photos from public/images
+const maePortrait = '/images/Aragon-Headshot-Mae-Dungo-2025-10-07-4.jpeg';
+const clientDiscussion = '/images/1000051446.jpg';
+const weddingPhoto = '/images/670269337_10233517282177141_1894597794089282867_n.jpg';
+const familyPhoto = '/images/671558585_10233517281537125_4459711296456051773_n.jpg';
+const coupleWithDogs = '/images/Scott Mae Dog.jpg';
 
 interface AboutViewProps {
   onNavigate: (route: AppRoute) => void;
@@ -227,6 +230,51 @@ export default function AboutView({ onNavigate }: AboutViewProps) {
             >
               Send Direct Message
             </button>
+          </div>
+        </div>
+      </section>
+
+      {/* 4. PERSONAL LIFE GALLERY */}
+      <section className="py-24 bg-neutral-light border-t border-gray-100" id="personal-gallery">
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+          <div className="text-center max-w-2xl mx-auto mb-16 space-y-3">
+            <span className="text-xs font-sans tracking-widest uppercase text-primary-gold font-bold">Beyond the Office</span>
+            <h2 className="text-3xl font-serif font-bold text-neutral-dark">Life, Love & Legacy</h2>
+            <p className="text-gray-500 font-sans text-xs sm:text-sm leading-relaxed">
+              Mae's commitment to family values extends far beyond financial planning. Here's a glimpse into the life that inspires her mission.
+            </p>
+          </div>
+
+          <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
+            {/* Wedding Photo */}
+            <div className="rounded-3xl overflow-hidden aspect-[3/4] bg-gray-100 shadow-lg border border-gray-100 group">
+              <img
+                src={weddingPhoto}
+                alt="Mae and Scott's wedding celebration"
+                className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-700"
+                loading="lazy"
+              />
+            </div>
+
+            {/* Family Portrait */}
+            <div className="rounded-3xl overflow-hidden aspect-[3/4] bg-gray-100 shadow-lg border border-gray-100 group">
+              <img
+                src={familyPhoto}
+                alt="Mae Dungo family portrait"
+                className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-700"
+                loading="lazy"
+              />
+            </div>
+
+            {/* Couple with Dogs */}
+            <div className="rounded-3xl overflow-hidden aspect-[3/4] bg-gray-100 shadow-lg border border-gray-100 group">
+              <img
+                src={coupleWithDogs}
+                alt="Mae and Scott with their dogs"
+                className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-700"
+                loading="lazy"
+              />
+            </div>
           </div>
         </div>
       </section>

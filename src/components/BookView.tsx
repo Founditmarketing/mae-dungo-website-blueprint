@@ -20,8 +20,8 @@ import {
 } from 'lucide-react';
 import { motion, AnimatePresence } from 'motion/react';
 
-// Use the generated image path
-import maePortrait from '../assets/images/mae_dungo_portrait_1779916039660.png';
+// Real photo from public/images
+const maePortrait = '/images/Aragon-Headshot-Mae-Dungo-2025-10-07-4.jpeg';
 
 export default function BookView() {
   const [selectedDate, setSelectedDate] = useState<string>('');
