@@ -1,0 +1,6 @@
+{
+  "name": "Mae Dungo Website Blueprint",
+  "description": "A premium, modern financial services and education website blueprint for Mae Dungo — Licensed Financial Professional and Nurse Practitioner.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
